@@ -3,8 +3,10 @@
    <section id="footer">
      <div class="container">
        <span class="back-to-top">
-       <a>
-         <i class="ni ni-bold-up ni-2x" aria-hidden="true" ></i>
+       <a @click="scrollTop" v-show="visible">
+         <i class="ni ni-bold-up ni-2x" aria-hidden="true">
+
+         </i>
        </a>
        </span>
        <div class="social-links">
@@ -27,12 +29,41 @@
 </body>
 </template>
  
+ <script>
+    export default {
+      data() {
+        return {
+              visible:true
+        }
+      },
+      methods: {
+        scrollTop: function() {
+          this.intervalidId = setInterval(() => {
+            if (window.pageYOffset === 0) {
+              clearInterval(this.intervalidId)
+            }
+            window.scroll(0, window.pageYOffset - 50)
+          }, 20)
+        },
+        scrollListener: function (e) {
+          this.visible = window.scrollY > 150
+        }
+      },
+      mounted: function () {
+        window.addEventListener('scroll', this.scrollListener)
+      },
+      beforeDestroy: function() {
+        window.removeEventListener('scroll', this.scrollListener)
+      }
+    }
+ </script>
+ 
 
 <style>
   #footer {
     background:#303030;
     color:#fff;
-    padding: 6.8rem 0;
+    padding: 6.0rem 0;
 
     display:block;
  }
@@ -62,7 +93,7 @@
 }
 
 .ni-2x {
-  font-size:2em;
+  font-size:1em;
 }
 
 .ni {
@@ -101,7 +132,7 @@
 .footer__text a  
 {
   color:#fff;
-  font-size:1.3rem;
+  font-size:0.8rem;
 }
 
 p {
@@ -115,3 +146,5 @@ p {
 }
 
 </style>
+
+ 
