@@ -3,16 +3,21 @@
   <div class="container">
   <h1 class="h1  hero-title">프론트엔드 개발자<span class="text-color-main" color="red">Kim Jung Ho</span> 입니다.
   <br>
+  <typical
+  
+  >
   저는 REACT를 주로 사용하고
   Redux && API 개발 경험이 있는
-  <br>
+  <br/>
   프론트엔드 개발자 입니다
+  </typical>
   </h1>
    <p class="react-reveal hero-cta" style="opacity: 1">
        <span class="cta-btn cta-btn--hero">
            <a href="#" >About me</a>
        </span>
    </p>
+
   
  
   </div>

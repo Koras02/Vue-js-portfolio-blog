@@ -18,8 +18,10 @@
                     <p class="mb-4">사용기술:Typescript,The Movie DB,React,React-styled-components,TheMovie-API,React-Router</p>
                     <p class="my-4">구현:영화 배너 클릭시 영화 소개 + 영화 트레일러 재생(Youtube), 검색, MyList구현,</p>
                 </div>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Koras02/Netflix-Api-frameWork">
-                    소스코드
+                <a target="_blank" class="cta-btn text-color-main"   href="https://github.com/Koras02/Netflix-Api-frameWork">
+                   <div id="color1">
+                    소스코드1
+                   </div>
                 </a>
                </div>
             </div>
@@ -157,14 +159,30 @@
        line-height: 1;
        z-index: 1;
        transition: all .6s cubic-bezier(.19,1,.22,1);
-
-   }
+    
+   }  
 
    .text-color-main {
        background-image: linear-gradient(135deg, #68ff5b, rgba(104,255,90,.717647));
+       /* color:red; */
        -webkit-background-clip: text;
+ 
        -webkit-text-fill-color: transparent;
+       margin-bottom:10px;
+       margin-left:-10px;
+   } :hover {
+      
    }
+   
+   #color1:hover {
+       /* background-image: linear-gradient(135deg, red, rgba(104,255,90,.717647)); */
+       margin-left:15px;
+       transition: 3s;
+
+   }
+
+
+     
 
    .cta-btn::after {
        content: "";

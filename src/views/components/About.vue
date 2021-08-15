@@ -7,7 +7,7 @@
              <div class="col-md-6 col-sm-12">
                  <div class="react-reveal about-wrapper__image">
                      <!-- 프로필 사진 아직안찍어서 보류!! -->
-                     <!-- <div class="circle shdow-lh gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;
+                     <div class="circle shdow-lh gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;
                      width: 350px;height: 350px;">
                      <img aria-hidden="true" src="https://avatars.githubusercontent.com/u/67436032?v=4" 
                      alt style="position: absolute; top:0px;left:0px;width:100%;height: 100%;
@@ -20,7 +20,7 @@
                             width="350" height="350" loading="lazy" style="position:absoulte; top: 0px left: 0px; width:100%; height: 100%; object-fit: cover; object-position: center cetner; opacity: 1; transition: opacity 500ms ease 0s;">
                         
                      </picture>
-                     </div> -->
+                     </div>
                  </div>
              </div>
              <div class="col-md-6 col-sm-12">
