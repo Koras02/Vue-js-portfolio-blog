@@ -4,15 +4,15 @@
 <div class="heros">변경사항:8월 16일 23시 50분</div>
   <h1 class="h1  hero-title">프론트엔드 개발자 
       <span class="text-color-main">
-          Kim Jung Ho
+          김정호
       </span> 
       입니다.
   <br />
   <div 
      className="hero-title"
   >
-  저는 REACT를 주로 사용하고
-  Redux && API 개발 경험이 있는 
+  저는 REACT 를 주로 사용하고
+  Redux & API 개발 경험이 있는 
   <br/>
   프론트엔드 개발자 입니다.
             
