@@ -18,15 +18,17 @@
                     <p class="mb-4">사용기술:Typescript,The Movie DB,React,React-styled-components,TheMovie-API,React-Router</p>
                     <p class="my-4">구현:영화 배너 클릭시 영화 소개 + 영화 트레일러 재생(Youtube), 검색, MyList구현,</p>
                 </div>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Koras02/Netflix-Api-frameWork">
-                    소스코드
+                <a target="_blank" class="cta-btn text-color-main"   href="https://github.com/Koras02/Netflix-Api-frameWork">
+                   <div id="color1">
+                    Source Code
+                   </div>
                 </a>
                </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-                  <div class="react-reveal project-wrapper__image" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 1000ms; animation-iteration-count: 1;opacity: 1;animation-name:react-reveal-14703181371446-5;">
+                  <div class="react-reveal project-wrapper__image">
                      <a href="https://koras02.github.io/Netflix-Api-frameWork/" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
-                       <div style="transform: perspective(1000px)  rotateX(0deg) rotateY(0deg) scale3D(1,1,1);">
+                       <div className="Source-code" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)">
                            <div data-tilt="true" class="thumbnail rounded">
                               <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
                                  <div aria-hidden="true" style="width:100%;padding-bottom: 59.6491%;">
@@ -71,7 +73,7 @@
    }
 
    #projects .project-wrapper {
-       margin-bottom:15rem;
+       margin-bottom:10rem;
        max-width: 1110px;
  
    }
@@ -157,14 +159,35 @@
        line-height: 1;
        z-index: 1;
        transition: all .6s cubic-bezier(.19,1,.22,1);
-
-   }
+    
+   }  
 
    .text-color-main {
        background-image: linear-gradient(135deg, #68ff5b, rgba(104,255,90,.717647));
+       /* color:red; */
        -webkit-background-clip: text;
+ 
        -webkit-text-fill-color: transparent;
+       margin-bottom:10px;
+       margin-left:-10px;
+   } :hover {
+      
    }
+   
+   #color1:hover {
+       /* background-image: linear-gradient(135deg, red, rgba(104,255,90,.717647)); */
+       margin-left:15px;
+       transition: 3s;
+
+   }
+
+   .Source-code {
+       transform: perspective(1000px)
+         rotateX(0deg) rotateY(0deg)
+         scale3d(1,1,1);
+       ;
+   }
+     
 
    .cta-btn::after {
        content: "";
@@ -187,13 +210,16 @@
 
    #projects {
        color: #272341;
-       padding-top: 15rem;
+       padding-top: 4rem;
    }
   
     #projects .project-wrapper__image {
         width: 90%;
         margin:0 auto;
+        border:4px solid rgb(206, 206, 206);
     }
+
+    
     
     #projects .project-wrapper__image .thumbnail {
         border:none;
