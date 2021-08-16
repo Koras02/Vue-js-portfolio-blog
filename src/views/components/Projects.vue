@@ -73,7 +73,7 @@
    #projects .project-wrapper {
        margin-bottom:15rem;
        max-width: 1110px;
-       min-height: 2870px;
+ 
    }
 
    *, ::after, ::before {
@@ -110,7 +110,7 @@
        flex-wrap: wrap;
        margin-right: -15px;
        margin-left: -15px;
-       border:1px solid red;
+       
 
        max-width: 1140px;
        min-height: 391.891px;

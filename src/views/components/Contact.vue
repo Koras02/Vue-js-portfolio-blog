@@ -1,0 +1,108 @@
+<template>
+   <section id="contact">
+       <div class="container">
+           <h2 class="react-reveal section-title"
+             style="animation-fill-mode:both;animation-duration: 1000ms;
+             animation-delay: 300ms;animation-iteration-count: 1;
+             opacity: 1; animation-name: react-reveal-739314817183330-2;"           
+           >
+               Contact
+           </h2>
+           <div class="react-reveal contact-wrapper">
+               <p class="contact-wrapper__text">이메일 주소를 보내시려면 아래 버튼을 클릭하세요.</p>
+               <a target="-blank" class="cta-btn1 cta-btn--resume" href="https://mail.google.com/mail/u/0/#inbox">
+                    "이메일 주소"
+               </a>
+           </div>
+       </div>
+   </section>
+</template>
+
+<style>
+    #contact {
+        background:linear-gradient(135deg, #68ff5b, 
+        rgba(104,255,90,.717647));
+        margin-bottom: -1px;
+        color:#fff;
+    }
+ 
+   @media (max-width: 75em)
+   {
+    #contact {
+        padding: 10rem 0;
+        margin-top: 0;
+        -webkit-clip-path: none;
+    }
+   }
+
+
+   .container {
+       width: 100%;
+       padding: 0px 15px;
+       margin:auto;
+       
+   }
+
+   @media (max-width: 768px) {
+       .container,
+       .container-md,
+       .container-sm {
+           max-width: 720px;
+       }
+   }
+   
+   .section-title {
+       margin: 0 0 5rem;
+       font-size: 4rem;
+       font-weight:700;
+       text-transform: uppercase;
+       text-align: center;
+       position: relative;
+   }
+
+   #contact .contact-wrapper__text, #contact-wrapper a {
+         font-size: 2.4rem;
+         text-align: center;
+   }
+
+   #contact .contact-wrapper__text {
+       margin-bottom: 2.5rem;
+   }
+
+   .cta-btn1 {
+       display:inline-block;
+       position: relative;
+       padding: .8rem 1.6rem;
+       left:40%;
+       font-weight: 700;
+       line-height: 1;
+       transition: all .6s cubic-bezier(.19,1,.22,1);
+       margin:auto;
+       
+   }
+   
+   .cta-btn--resume {
+       color:#fff;
+       border: 2px solid #fff;
+       padding:8px;
+   }
+   .cta-btn--resume:after {
+       background:#fff;
+      
+   }
+   .cta-btn::after {
+       content: "";
+       display:block;
+       position:absolute;
+       width: 0;
+       height: 100%;
+       left: 0;
+       bottom: 0;
+       z-index: -1;
+       transition: all .3s cubic-bezier(.19,1,.22,1);
+   }
+
+
+</style>
+ 
+
