@@ -165,15 +165,12 @@
    .text-color-main {
        background-image: linear-gradient(135deg, #68ff5b, rgba(104,255,90,.717647));
        /* color:red; */
-       -webkit-background-clip: text;
+       --webkit-background-clip: text;
  
        -webkit-text-fill-color: transparent;
        margin-bottom:10px;
        margin-left:-10px;
-   } :hover {
-      
-   }
-   
+   }  
    #color1:hover {
        /* background-image: linear-gradient(135deg, red, rgba(104,255,90,.717647)); */
        margin-left:15px;

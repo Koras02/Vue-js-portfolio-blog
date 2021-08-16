@@ -94,7 +94,7 @@
 
 .text-color-main {
     background: linear-gradient(135deg,#68ff5b,rgba(104,255,90,.717647));
-    -webkit-background-clip:text;
+    background-clip:text;
     -webkit-text-fill-color: transparent;
     font-size:30px;
     font-weight: bold;

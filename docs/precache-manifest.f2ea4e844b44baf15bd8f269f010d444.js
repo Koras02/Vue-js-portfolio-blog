@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5bda4c444b00f1bdf2ea",
-    "url": "/Vue-js-portfolio-blog/css/app.baf6594a.css"
+    "revision": "d611e3aefa9931cc757b",
+    "url": "/Vue-js-portfolio-blog/css/app.33b9147e.css"
   },
   {
-    "revision": "5bda4c444b00f1bdf2ea",
-    "url": "/Vue-js-portfolio-blog/js/app.c241c933.js"
+    "revision": "d611e3aefa9931cc757b",
+    "url": "/Vue-js-portfolio-blog/js/app.7762d83c.js"
   },
   {
     "revision": "f4cfbd9635feb93f8750",
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/1.fabd51e1.png"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.af7ae505.woff2"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "1e044d836cdaffdc7585eceafe8e5b47",
+    "revision": "6eb5eaed620ec47e42e4c59555a454be",
     "url": "/Vue-js-portfolio-blog/index.html"
   },
   {
@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/ill/ill-2.svg"
   },
   {
-    "revision": "20d702b83a06bdb2ea71c4c0cb9a7a56",
-    "url": "/Vue-js-portfolio-blog/img/theme/profile.jpg"
-  },
-  {
     "revision": "dc49ad52655e1d9d0552c026db3ef688",
     "url": "/Vue-js-portfolio-blog/img/theme/landing.jpg"
+  },
+  {
+    "revision": "20d702b83a06bdb2ea71c4c0cb9a7a56",
+    "url": "/Vue-js-portfolio-blog/img/theme/profile.jpg"
   },
   {
     "revision": "974088a1931e40895bac6db119c62448",
@@ -116,11 +116,11 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/theme/team-4-800x800.jpg"
   },
   {
-    "revision": "be997d5226b992ffad34816870c6b7aa",
-    "url": "/Vue-js-portfolio-blog/img/theme/team-2-800x800.jpg"
-  },
-  {
     "revision": "54e3f3c414bd8e7234bae3ee3be950e5",
     "url": "/Vue-js-portfolio-blog/img/theme/team-3-800x800.jpg"
+  },
+  {
+    "revision": "be997d5226b992ffad34816870c6b7aa",
+    "url": "/Vue-js-portfolio-blog/img/theme/team-2-800x800.jpg"
   }
 ];

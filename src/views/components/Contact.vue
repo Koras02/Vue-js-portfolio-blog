@@ -45,7 +45,7 @@
     #contact {
         padding: 10rem 0;
         margin-top: 0;
-        -webkit-clip-path: none;
+        --webkit-clip-path: none;
     }
    }
 
