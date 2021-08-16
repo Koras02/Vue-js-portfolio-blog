@@ -20,15 +20,15 @@
                 </div>
                 <a target="_blank" class="cta-btn text-color-main"   href="https://github.com/Koras02/Netflix-Api-frameWork">
                    <div id="color1">
-                    소스코드1
+                    Source Code
                    </div>
                 </a>
                </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-                  <div class="react-reveal project-wrapper__image" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 1000ms; animation-iteration-count: 1;opacity: 1;animation-name:react-reveal-14703181371446-5;">
+                  <div class="react-reveal project-wrapper__image">
                      <a href="https://koras02.github.io/Netflix-Api-frameWork/" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
-                       <div style="transform: perspective(1000px)  rotateX(0deg) rotateY(0deg) scale3D(1,1,1);">
+                       <div className="Source-code" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)">
                            <div data-tilt="true" class="thumbnail rounded">
                               <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
                                  <div aria-hidden="true" style="width:100%;padding-bottom: 59.6491%;">
@@ -181,7 +181,12 @@
 
    }
 
-
+   .Source-code {
+       transform: perspective(1000px)
+         rotateX(0deg) rotateY(0deg)
+         scale3d(1,1,1);
+       ;
+   }
      
 
    .cta-btn::after {
@@ -211,7 +216,10 @@
     #projects .project-wrapper__image {
         width: 90%;
         margin:0 auto;
+        border:4px solid rgb(206, 206, 206);
     }
+
+    
     
     #projects .project-wrapper__image .thumbnail {
         border:none;
