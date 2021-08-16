@@ -63,7 +63,7 @@
   #footer {
     background:#303030;
     color:#fff;
-    padding: 6.0rem 0;
+    padding: 3.0rem 0;
 
     display:block;
  }

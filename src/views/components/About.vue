@@ -10,7 +10,7 @@
                      width: 300px;height: 300px;">
                      <img aria-hidden="true" src="https://avatars.githubusercontent.com/u/67436032?v=4" 
                      alt style="position: absolute; top:0px;left:0px;width:100%;height: 100%;
-                     object-fit: cover; object-position: center center; opacity:100;transition-delay: 500ms;
+                     object-fit: cover; object-position: center center; opacity:100;
                      "
                      />
                      <picture>
@@ -62,16 +62,16 @@ export default{};
        background-color: #B5E1AC;
        background-image:linear-gradient(135deg,#DDEFBB,#17DAC3);
        color:#fff;
-       height: 100vh;
+       height: 113vh;
        border-top: 0;
        -webkit-clip-path:polygon(0,0,100% 0, 100% 80%,0 100%);
-       clip-path: polygon(0% -190%, 250% 60%, 20% 93%, 0% 95%);
-       padding-bottom: 10%;
+       clip-path: polygon(0% -40%, 290% 40%, 0% 92%, 0% 10%);
+       padding-bottom: 25%;
     
    }
        #about .about-wrapper__info-text {
          /* text-align: center; */
-         font-size:19px;
+         font-size:20px;
          text-transform: uppercase;
          font-weight: 500;
      }
@@ -99,21 +99,16 @@ export default{};
  
    .section-title1 {
        margin: 0 0 4.5rem;
-       font-size:  4.5rem;
+       font-size:  3.5rem;
        font-weight: 700;
        text-transform: uppercase;
        line-height: 1.2;
        text-align: center;
-       color:#fff;
+       color:#cff;
     
    }
 
 
-
- 
-    
-
- 
 
 @media  (max-width: 640px) {
     #about .about-wrapper__info-text {
@@ -134,11 +129,12 @@ export default{};
         margin-top:-20%;
         margin-bottom:60px;
         position:relative;
-        bottom:30%;
-
-        
+        bottom:30%;    
     
     }
+
+
+ 
       .section-title1 {
        margin: 0 0 1.5rem;
        font-size: 3.0rem;
@@ -148,10 +144,10 @@ export default{};
      position:relative;
      bottom:190px;
    }
-
  
 
  
+
  
  #about .about-wrapper__info {
      display:flex;
@@ -218,6 +214,11 @@ a, a:active, a:hover, a:link, a:visited {
 .cta-btn , a, p {
     font-size: 1.2rem;
 }
+@media screen and (max-width:) {
+    
+}
+
+
 .cta-btn--resume {
     color:#fff;
     border: 3px solid #fff;

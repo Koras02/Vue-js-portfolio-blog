@@ -66,10 +66,13 @@
    }
    
    .section-title2 {
-       margin: 5rem 0 5rem;
-       font-size: 4rem;
+       margin: 0.1rem 0 5rem;
+       font-size: 2rem;
        font-weight:bold;
-       text-transform: uppercase;
+       font-style:normal;
+       text-transform:uppercase;
+       /* text-transform: uppercase; */
+       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
        text-align: center;
        position: relative;
@@ -82,7 +85,7 @@
    @media screen and (max-width:640px) {
          .section-title2 {
        margin: -5rem 0 5rem;
-       font-size: 3rem;
+       font-size: 1.9rem;
        font-weight:bold;
        text-transform: uppercase;
 

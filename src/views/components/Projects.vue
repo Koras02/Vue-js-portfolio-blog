@@ -33,7 +33,7 @@
                               <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
                                  <div aria-hidden="true" style="width:100%;padding-bottom: 59.6491%;">
                                  </div>
-                                 <img aria-hidden="true" src="./1.png" style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
+                                 <img aria-hidden="true" src="./images/1.png" style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
                               </div>
                            </div>
                        </div>
@@ -59,7 +59,7 @@
    #projects {
        background-color: #fff;
        color: #272341;
-       padding-top: 15rem;
+       padding-top: 19rem;
    }
    section {
        padding: 5rem 0;
@@ -73,7 +73,7 @@
    }
 
    #projects .project-wrapper {
-       margin-bottom:10rem;
+       margin-bottom:1rem;
        max-width: 1110px;
  
    }
