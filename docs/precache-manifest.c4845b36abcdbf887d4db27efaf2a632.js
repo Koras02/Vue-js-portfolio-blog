@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "add1209eae06a28dc73c",
-    "url": "/Vue-js-portfolio-blog/css/app.4a29673f.css"
+    "revision": "5bda4c444b00f1bdf2ea",
+    "url": "/Vue-js-portfolio-blog/css/app.baf6594a.css"
   },
   {
-    "revision": "add1209eae06a28dc73c",
-    "url": "/Vue-js-portfolio-blog/js/app.bfd72428.js"
+    "revision": "5bda4c444b00f1bdf2ea",
+    "url": "/Vue-js-portfolio-blog/js/app.c241c933.js"
   },
   {
-    "revision": "f99f07259371dc992ac7",
-    "url": "/Vue-js-portfolio-blog/js/chunk-vendors.703c393e.js"
+    "revision": "f4cfbd9635feb93f8750",
+    "url": "/Vue-js-portfolio-blog/js/chunk-vendors.dd1c1bc8.js"
   },
   {
     "revision": "c1733565b32b585676302d4233c39da8",
     "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.c1733565.eot"
   },
   {
-    "revision": "2569aaea6eaaf8cd210db7f2fa016743",
-    "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.2569aaea.woff"
-  },
-  {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.42643978.woff2"
+  },
+  {
+    "revision": "2569aaea6eaaf8cd210db7f2fa016743",
+    "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.2569aaea.woff"
   },
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
@@ -56,28 +56,28 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "1b9952b541afe901059ffdad1704e92a",
+    "revision": "1e044d836cdaffdc7585eceafe8e5b47",
     "url": "/Vue-js-portfolio-blog/index.html"
+  },
+  {
+    "revision": "b9949387c6179e2dc4c675134a7b7935",
+    "url": "/Vue-js-portfolio-blog/favicon.png"
   },
   {
     "revision": "185288d13ed8e9d745bd279ea34667bf",
     "url": "/Vue-js-portfolio-blog/img/brand/blue.png"
   },
   {
-    "revision": "b9949387c6179e2dc4c675134a7b7935",
-    "url": "/Vue-js-portfolio-blog/img/brand/favicon.png"
-  },
-  {
     "revision": "c85c75275c0a0a617f9e5accc2700908",
     "url": "/Vue-js-portfolio-blog/img/brand/creativetim-white-slim.png"
   },
   {
-    "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
-    "url": "/Vue-js-portfolio-blog/img/brand/github-white-slim.png"
+    "revision": "b9949387c6179e2dc4c675134a7b7935",
+    "url": "/Vue-js-portfolio-blog/img/brand/favicon.png"
   },
   {
-    "revision": "b9949387c6179e2dc4c675134a7b7935",
-    "url": "/Vue-js-portfolio-blog/favicon.png"
+    "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
+    "url": "/Vue-js-portfolio-blog/img/brand/github-white-slim.png"
   },
   {
     "revision": "6fafe4baca9d50d61a898c84ade7afa3",
@@ -92,10 +92,6 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/theme/profile.jpg"
   },
   {
-    "revision": "fd4a34d026fb9e0f4867188d47b11ba8",
-    "url": "/Vue-js-portfolio-blog/img/theme/img-1-1200x1000.jpg"
-  },
-  {
     "revision": "dc49ad52655e1d9d0552c026db3ef688",
     "url": "/Vue-js-portfolio-blog/img/theme/landing.jpg"
   },
@@ -108,12 +104,12 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/theme/img-2-1200x1000.jpg"
   },
   {
-    "revision": "edc7106b21ec12e57022b2ebd534cd2d",
-    "url": "/Vue-js-portfolio-blog/img/theme/team-1-800x800.jpg"
+    "revision": "fd4a34d026fb9e0f4867188d47b11ba8",
+    "url": "/Vue-js-portfolio-blog/img/theme/img-1-1200x1000.jpg"
   },
   {
-    "revision": "54e3f3c414bd8e7234bae3ee3be950e5",
-    "url": "/Vue-js-portfolio-blog/img/theme/team-3-800x800.jpg"
+    "revision": "edc7106b21ec12e57022b2ebd534cd2d",
+    "url": "/Vue-js-portfolio-blog/img/theme/team-1-800x800.jpg"
   },
   {
     "revision": "66618a418175ddf2ac8c47a241d327a8",
@@ -122,5 +118,9 @@ self.__precacheManifest = [
   {
     "revision": "be997d5226b992ffad34816870c6b7aa",
     "url": "/Vue-js-portfolio-blog/img/theme/team-2-800x800.jpg"
+  },
+  {
+    "revision": "54e3f3c414bd8e7234bae3ee3be950e5",
+    "url": "/Vue-js-portfolio-blog/img/theme/team-3-800x800.jpg"
   }
 ];
