@@ -20,7 +20,7 @@
 
 <style>
     #contact {
-        background:linear-gradient(135deg, #68ff5b, 
+        background:linear-gradient(135deg, #DDEFBB, 
         rgba(104,255,90,.717647));
         margin-bottom: -1px;
         color:#fff;
@@ -30,15 +30,12 @@
         #contact {
           display:flex;
           align-items:center;
-          border:1px solid red;
-          background-image:linear-gradient(135deg,#F5F888,#17DAC3);
+       
+          background-image:linear-gradient(135deg,#B0DAB9,#8CA6DB);
           border-top:0;
                -webkit-clip-path:polygon(0,0,100% 0, 100% 80%,0 100%);
 
             clip-path: polygon(0% 20%, 200% -15%, 100% 100%, 0% 100%);
-
-
-
           padding-bottom: 10%;
         }
     }
@@ -69,36 +66,77 @@
    }
    
    .section-title2 {
-       margin: 0 0 5rem;
+       margin: 5rem 0 5rem;
        font-size: 4rem;
-       font-weight:0;
+       font-weight:bold;
        text-transform: uppercase;
+
        text-align: center;
        position: relative;
-       left:1%;
+       left:2%;
        top:50px;
        color:#fff;
    }
+ 
 
+   @media screen and (max-width:640px) {
+         .section-title2 {
+       margin: -5rem 0 5rem;
+       font-size: 3rem;
+       font-weight:bold;
+       text-transform: uppercase;
+
+       text-align: center;
+       position: relative;
+       
+     }
+  
+
+   }
+ 
    #contact .contact-wrapper__text, #contact-wrapper a {
-         font-size: 2.4rem;
+         font-size: 2rem;
          text-align: center;
+         position:relative;
+         left:20px;
+         color:#fff;
    }
 
+   @media screen and (max-width:860px) {
+         #contact .contact-wrapper__text, #contact-wrapper a {
+             font-size:1.1rem;
+             color:#fff;
+             font-weight:500;
+         }
+   }
+ 
    #contact .contact-wrapper__text {
-       margin-bottom: 2.5rem;
+       margin-bottom: 3.2rem;
    }
 
    .cta-btn1 {
        display:inline-block;
        position: relative;
        padding: .8rem 1.6rem;
-       left:40%;
+       left:45%;
        font-weight: 700;
        line-height: 1;
        transition: all .6s cubic-bezier(.19,1,.22,1);
        margin:auto;
        
+   }
+
+   @media screen and (max-width:640px) {
+       .cta-btn1 {
+             display:inline-block;
+       position: relative;
+       padding: .8rem 1.6rem;
+       left:35%;
+       font-weight: 700;
+       line-height: 1;
+       transition: all .6s cubic-bezier(.19,1,.22,1);
+       margin:auto;
+       }
    }
    
    .cta-btn--resume {

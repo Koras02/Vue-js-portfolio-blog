@@ -60,7 +60,7 @@ export default{};
        display:flex;
        align-items:center;
        background-color: #B5E1AC;
-       background-image:linear-gradient(135deg,#F5F888,#17DAC3);
+       background-image:linear-gradient(135deg,#DDEFBB,#17DAC3);
        color:#fff;
        height: 100vh;
        border-top: 0;
@@ -70,7 +70,7 @@ export default{};
     
    }
        #about .about-wrapper__info-text {
-         text-align: center;
+         /* text-align: center; */
          font-size:19px;
          text-transform: uppercase;
          font-weight: 500;
