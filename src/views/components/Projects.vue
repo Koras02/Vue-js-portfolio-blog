@@ -73,7 +73,7 @@
    }
 
    #projects .project-wrapper {
-       margin-bottom:15rem;
+       margin-bottom:10rem;
        max-width: 1110px;
  
    }
@@ -205,7 +205,7 @@
 
    #projects {
        color: #272341;
-       padding-top: 15rem;
+       padding-top: 4rem;
    }
   
     #projects .project-wrapper__image {
