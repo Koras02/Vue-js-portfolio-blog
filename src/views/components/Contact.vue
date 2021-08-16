@@ -1,7 +1,7 @@
 <template>
    <section id="contact">
        <div class="container">
-           <h2 class="react-reveal section-title"
+           <h2 class="react-reveal section-title2"
              style="animation-fill-mode:both;animation-duration: 1000ms;
              animation-delay: 300ms;animation-iteration-count: 1;
              opacity: 1; animation-name: react-reveal-739314817183330-2;"           
@@ -24,6 +24,23 @@
         rgba(104,255,90,.717647));
         margin-bottom: -1px;
         color:#fff;
+    }
+
+    @media (min-width: 1200px) {
+        #contact {
+          display:flex;
+          align-items:center;
+          border:1px solid red;
+          background-image:linear-gradient(135deg,#F5F888,#17DAC3);
+          border-top:0;
+               -webkit-clip-path:polygon(0,0,100% 0, 100% 80%,0 100%);
+
+            clip-path: polygon(0% 20%, 200% -15%, 100% 100%, 0% 100%);
+
+
+
+          padding-bottom: 10%;
+        }
     }
  
    @media (max-width: 75em)
@@ -51,13 +68,16 @@
        }
    }
    
-   .section-title {
+   .section-title2 {
        margin: 0 0 5rem;
        font-size: 4rem;
-       font-weight:700;
+       font-weight:0;
        text-transform: uppercase;
        text-align: center;
        position: relative;
+       left:1%;
+       top:50px;
+       color:#fff;
    }
 
    #contact .contact-wrapper__text, #contact-wrapper a {
