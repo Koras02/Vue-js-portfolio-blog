@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                   <div class="react-reveal project-wrapper__image" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 1000ms; animation-iteration-count: 1;opacity: 1;animation-name:react-reveal-14703181371446-5;">
-                     <a href="https://github.com/Koras02/Netflix-Api-frameWork" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
+                     <a href="https://koras02.github.io/Netflix-Api-frameWork/" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
                        <div style="transform: perspective(1000px)  rotateX(0deg) rotateY(0deg) scale3D(1,1,1);">
                            <div data-tilt="true" class="thumbnail rounded">
                               <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
