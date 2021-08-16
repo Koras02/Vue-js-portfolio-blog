@@ -1,6 +1,7 @@
 <template>
 <section id="hero" class="jumbotron">
   <div class="container">
+<div class="heros">변경사항:8월 16일 23시 50분</div>
   <h1 class="h1  hero-title">프론트엔드 개발자 
       <span class="text-color-main">
           Kim Jung Ho
