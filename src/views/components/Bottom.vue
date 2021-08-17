@@ -11,10 +11,13 @@
        </span>
        <div class="social-links">
          <a href="https://github.com/Koras02" rel ="noopener noreferrer" target="_blank" aria-label="github">
-            <i class="fa fa-github fa-inverse fa-2x">
-              
-            </i>
+            <i class="fa fa-github fa-inverse fa-2x"></i>
          </a>
+            <a href="https://github.com/Koras02" rel ="noopener noreferrer" target="_blank" aria-label="github" class="link_logo">
+              <!-- <span>티스토리</span> -->
+              <i class="fa fa-downcase-a fa-inverse fa-2x">
+              </i>
+            </a>
        </div>
        <hr>
        <p class="footer__text">
@@ -23,6 +26,7 @@
          <a href="https://github.com/Koras02/Vue-js-portfolio-blog" target="_blank" rel="nooperner no referrer">
             Koras02
          </a>
+         
        </p>
      </div>
    </section>
@@ -98,9 +102,10 @@
 
 .ni {
   display:inline-block;
-  font:normal normal normal 14px/1 FontAwsome;
+  font:normal normal normal 12px/1 FontAwsome;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
+  
   
 }
 
@@ -117,8 +122,10 @@
 }
 .ni-bold-up:hover {
     position:relative;
-    top:-15px;
-    transition:10s inherit;
+    top:-9px;
+    translate:initial;
+    transition-delay: 300ms;
+    transition:ease-in-out;
 }
 
 .fa {
@@ -145,6 +152,84 @@ p {
   
 }
 
+ 
+ .img_common_tistory {
+   /* display:block; */
+   width:24px;
+   height: 24px;
+   background-position: 0 -30px;
+   font-size: 10px;
+   line-height: 0;
+   text-indent: -9999;
+   background-image: url('https://t1.daumcdn.net/tistory_admin/static/top/pc/img_common_tistory_200910.png');
+   background-size: 200px 180px;
+   
+ }
+
+.fa-downcase-a::before {
+  font-family: Arial;
+  font-weight: bold;
+  content: 'T';
+  font-size:34px;
+  color: #000;
+  background:#fcfcfc;
+  /* width:30px; */
+  /* height:24px; */
+  padding:0px 9px;
+  border-radius:0%;
+  /* border: 1px solid #000; */
+  /* border-radius: 0%; */
+
+}
+
+.social-links {
+  flex-direction: row;
+}
+
+.social-links a {
+  flex-direction: column;
+  color:#fff;
+  /* font-size: 3rem; */
+  width:5rem;
+  height: 2rem;
+  margin: 1.6rem;
+  transition: all .2 ease-in;
+}
+
+.social-links,
+.social-links a {
+  display:flex;
+  justify-content: center;
+}
+
+a,a:active ,
+a:hover,
+a:link, a:visited {
+  text-decoration: none;
+}
+
+.fa-invers {
+  color:#fff;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1FontAwesome;
+  font-size:inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-linkedin::before {
+  content: "\F0E1";
+}
+
+.fa:hover {
+   margin-bottom:20px;
+   transition-delay: 100ms;
+   transition-duration: 500ms;
+}
+
+
 </style>
 
- 

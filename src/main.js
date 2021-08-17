@@ -22,16 +22,15 @@ import Argon from "./plugins/argon-kit";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { VueTyper } from 'vue-typer';
+import VueTyperPlugin from "vue-typer";
+// import { VueTyper } from 'vue-typer';
 import VuescrollTo from 'vue-scrollto';
 
 import "./assets/vendor/nucleo/css/nucleo.css";
 import "./assets/vendor/font-awesome/css/font-awesome.css";
  
-
-// import "./assets/scss/argon.scss";
-
-
+ 
+ 
 library.add(faUserSecret);
 
 
@@ -41,9 +40,8 @@ import './registerServiceWorker'
 
 Vue.config.productionTip = false;
 Vue.use(Argon);
-Vue.use(VueTyper);
+Vue.use(VueTyperPlugin);
 Vue.use(VuescrollTo);
-
  
  
 new Vue({

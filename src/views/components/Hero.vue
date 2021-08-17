@@ -4,13 +4,14 @@
   <div class="container">
 <div class="heros">변경시간: 13시 37분</div>
   <h1 class="h1  hero-title">프론트엔드 개발자 
-      <span class="text-color-main">
-          김정호
-      </span> 
+    <vue-typer :text='["김정호"]' translate="15deg"
+    :repeat='Infinity'
+    /> 
       입니다.
   <br />
   <div 
      className="hero-title"
+     
   >
   저는 REACT 를 주로 사용하고
   Redux & API 개발 경험이 있는 
@@ -52,6 +53,11 @@
  *, ::after,::before {
      box-sizing: border-box;
  }
+
+ 
+.vue-typer .custom.char.typed {
+  color: #68ff5b;
+}
 
 .h1 {
     line-height: 1.2;
