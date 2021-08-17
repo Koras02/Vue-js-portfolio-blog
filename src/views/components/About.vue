@@ -214,10 +214,7 @@ a, a:active, a:hover, a:link, a:visited {
 .cta-btn , a, p {
     font-size: 1.2rem;
 }
-@media screen and (max-width:) {
-    
-}
-
+ 
 
 .cta-btn--resume {
     color:#fff;
