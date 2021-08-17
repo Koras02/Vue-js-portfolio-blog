@@ -1,3 +1,4 @@
+
 <template>
 <section id="hero" class="jumbotron">
   <div class="container">
@@ -18,21 +19,32 @@
             
   </div>
   </h1>
+
+ 
    <div class="react-reveal hero-cta">
-       <a href="#about" class="main-cta-btn" >
+       <a  v-scroll-to="'#about'"
+   
+   
+        class="main-cta-btn" >
           
                About me
       
        </a>
    </div>
-
-  
- 
   </div>
 </section>
 </template>
 <script>
+ var VueScrollTo = require('vue-scrollto');
+
+ var options = {
+     container: '#container',
+     easing: 'ease-in',
+     offeset: -60,
+     force: true,
+     cancleable: true,
  
+ }
  
 </script>
 <style>
