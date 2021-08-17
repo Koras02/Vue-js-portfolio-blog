@@ -100,11 +100,12 @@ export default{};
    .section-title1 {
        margin: 0 0 4.5rem;
        font-size:  3.5rem;
-       font-weight: 700;
+       font-weight: 600;
        text-transform: uppercase;
        line-height: 1.2;
        text-align: center;
        color:#cff;
+     font-family: 'Nanum Gothic', sans-serif;
     
    }
 
@@ -141,8 +142,8 @@ export default{};
        font-weight: bold;
        text-transform: uppercase;
        line-height: 1.3;
-     position:relative;
-     bottom:190px;
+        position:relative;
+        bottom:190px;
    }
  
 

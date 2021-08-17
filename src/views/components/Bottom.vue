@@ -13,7 +13,9 @@
          <a href="https://github.com/Koras02" rel ="noopener noreferrer" target="_blank" aria-label="github">
             <i class="fa fa-github fa-inverse fa-2x"></i>
          </a>
-            <a href="https://github.com/Koras02" rel ="noopener noreferrer" target="_blank" aria-label="github" class="link_logo">
+            <a href="
+            https://koras02.tistory.com/
+            " rel ="noopener noreferrer" target="_blank" aria-label="github" class="link_logo">
               <!-- <span>티스토리</span> -->
               <i class="fa fa-downcase-a fa-inverse fa-2x">
               </i>

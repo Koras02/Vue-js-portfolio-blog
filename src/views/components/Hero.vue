@@ -2,7 +2,7 @@
 <template>
 <section id="hero" class="jumbotron">
   <div class="container">
-<div class="heros">변경시간: 13시 37분</div>
+<div class="heros">변경시간: 21시 13분</div>
   <h1 class="h1  hero-title">프론트엔드 개발자 
     <vue-typer :text='["김정호"]' translate="15deg"
     :repeat='Infinity'
@@ -21,17 +21,22 @@
   </div>
   </h1>
 
- 
+<!--  
    <div class="react-reveal hero-cta">
        <a  v-scroll-to="'#about'"
-   
-   
         class="main-cta-btn" >
-          
                About me
-      
+       </a>
+   </div> -->
+
+   <div class="button button-2">
+       <a v-scroll-to="'#about'"
+       >
+       Angle bg
        </a>
    </div>
+
+
   </div>
 </section>
 </template>
@@ -205,5 +210,37 @@ a:not([href]), a:not([href]):hover {
 }
 
 
+
+.button {
+    width: 120px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left: 10px;
+    
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* margin-left: 30px; */
+    cursor:pointer;
+    display:inline-block;
+    /* padding:; */
+}
+
+.button-2 {
+    color:#fff;
+    border: 3px solid #c266d3;
+    background-image: -webkit-linear-gradient(30deg,#c266d3 50%, transparent 50%);
+    background-size:500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    
+}
+
+.button-2:hover {
+    background-position: 100%;
+    color:#c266d3;
+    
+}
 
 </style>
