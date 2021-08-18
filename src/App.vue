@@ -17,8 +17,13 @@ export default {
     FadeTransition
   }
 };
+ 
+ console.log('%c 현재버전은 %c 2021년 18시 04분에 배포한 버전입니다 ', 'background-color:#000000; color:#ffffff; font-size:18px;', 
+'background-color:red; color:#ffffff; font-size:20px;');
 
-console.log("13시 43분 수정");
+
+ 
+ 
 </script>
 
 
