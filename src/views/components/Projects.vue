@@ -1,6 +1,6 @@
 <template>
    <section id="projects">
-      <div class="container">
+      <div class="container" data-aos="fade-right">
         <div class="project-wrapper">
           <div class="react-reveal sectiontitle" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-686762263305807-2;">
              Projects

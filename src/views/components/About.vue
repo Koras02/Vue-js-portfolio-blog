@@ -1,8 +1,8 @@
 <template>
    <section id="about">
-       <div class="container">
-        <h2 class="react-reveal section-title1" >ABOUT ME</h2>
-        <div class="about-wrapper row">
+       <div class="container"  >
+        <h2 class="react-reveal section-title1" data-aos="fade-up">ABOUT ME</h2>
+        <div class="about-wrapper row" data-aos="fade-up">
              <div class="col-md-6 col-sm-12">
                  <div class="react-reveal about-wrapper__image">
                      <!-- 프로필 사진 아직안찍어서 보류!! -->
@@ -47,12 +47,20 @@
                   </div>
              </div>
         </div>
-       </div>
+    </div>
+
+ 
    </section>
 </template>
 
 <script>
 export default{};
+
+AOS.init({
+    offset: -50,
+    delay: 0,
+    duration: 1000
+})
 </script>
 
 <style>
@@ -106,6 +114,7 @@ export default{};
        text-align: center;
        color:#cff;
      font-family: 'Nanum Gothic', sans-serif;
+ 
     
    }
 

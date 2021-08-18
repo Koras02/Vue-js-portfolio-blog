@@ -1,7 +1,7 @@
 <template>
    <section id="contact">
-       <div class="container">
-           <h2 class="react-reveal section-title2"
+       <div class="container" data-aos="fade-right">
+           <h2 class="react-reveal section-title2"  
              style="animation-fill-mode:both;animation-duration: 1000ms;
              animation-delay: 300ms;animation-iteration-count: 1;
              opacity: 1; animation-name: react-reveal-739314817183330-2;"           

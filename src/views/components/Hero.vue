@@ -1,8 +1,9 @@
 
 <template>
 <section id="hero" class="jumbotron">
-  <div class="container">
-<div class="heros">변경시간: 21시 13분</div>
+  <div class="container" data-aos="fade-right">
+<div class="heros"
+>변경시간: 21시 13분</div>
   <h1 class="h1  hero-title">프론트엔드 개발자 
     <vue-typer :text='["김정호"]' translate="15deg"
     :repeat='Infinity'
