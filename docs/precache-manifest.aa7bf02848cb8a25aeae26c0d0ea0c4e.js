@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "3f8ba1a04712d051e798",
+    "revision": "32c77283302c5036723c",
     "url": "/Vue-js-portfolio-blog/css/app.8270d8ec.css"
   },
   {
-    "revision": "3f8ba1a04712d051e798",
-    "url": "/Vue-js-portfolio-blog/js/app.11c1ca44.js"
+    "revision": "32c77283302c5036723c",
+    "url": "/Vue-js-portfolio-blog/js/app.996de4fe.js"
   },
   {
     "revision": "1ae826e5d721a9a22b4b",
     "url": "/Vue-js-portfolio-blog/js/chunk-vendors.83f005c7.js"
   },
   {
-    "revision": "c1733565b32b585676302d4233c39da8",
-    "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.c1733565.eot"
-  },
-  {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.42643978.woff2"
+  },
+  {
+    "revision": "c1733565b32b585676302d4233c39da8",
+    "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.c1733565.eot"
   },
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
@@ -36,10 +36,6 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/1.fabd51e1.png"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.fee66e71.woff"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.674f50d2.eot"
   },
@@ -52,11 +48,15 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.b06871f2.ttf"
   },
   {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.fee66e71.woff"
+  },
+  {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/Vue-js-portfolio-blog/img/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "90248363017d4e2cb9f3a593ee9eefd9",
+    "revision": "2fbd3bc3d0708906dd9592ebf01e740d",
     "url": "/Vue-js-portfolio-blog/index.html"
   },
   {
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/brand/blue.png"
   },
   {
-    "revision": "c85c75275c0a0a617f9e5accc2700908",
-    "url": "/Vue-js-portfolio-blog/img/brand/creativetim-white-slim.png"
-  },
-  {
     "revision": "b9949387c6179e2dc4c675134a7b7935",
     "url": "/Vue-js-portfolio-blog/favicon.png"
+  },
+  {
+    "revision": "c85c75275c0a0a617f9e5accc2700908",
+    "url": "/Vue-js-portfolio-blog/img/brand/creativetim-white-slim.png"
   },
   {
     "revision": "b9949387c6179e2dc4c675134a7b7935",
@@ -88,16 +88,20 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/ill/ill-2.svg"
   },
   {
-    "revision": "974088a1931e40895bac6db119c62448",
-    "url": "/Vue-js-portfolio-blog/img/theme/promo-1.png"
-  },
-  {
     "revision": "cc767b58ef34dc707c8eca2406f41bf3",
     "url": "/Vue-js-portfolio-blog/img/theme/cat.jpg"
   },
   {
     "revision": "dc49ad52655e1d9d0552c026db3ef688",
     "url": "/Vue-js-portfolio-blog/img/theme/landing.jpg"
+  },
+  {
+    "revision": "974088a1931e40895bac6db119c62448",
+    "url": "/Vue-js-portfolio-blog/img/theme/promo-1.png"
+  },
+  {
+    "revision": "7789b5bfa57722dd8916b1b9ff1b1d37",
+    "url": "/Vue-js-portfolio-blog/img/theme/img-2-1200x1000.jpg"
   },
   {
     "revision": "20d702b83a06bdb2ea71c4c0cb9a7a56",
@@ -110,10 +114,6 @@ self.__precacheManifest = [
   {
     "revision": "edc7106b21ec12e57022b2ebd534cd2d",
     "url": "/Vue-js-portfolio-blog/img/theme/team-1-800x800.jpg"
-  },
-  {
-    "revision": "7789b5bfa57722dd8916b1b9ff1b1d37",
-    "url": "/Vue-js-portfolio-blog/img/theme/img-2-1200x1000.jpg"
   },
   {
     "revision": "66618a418175ddf2ac8c47a241d327a8",

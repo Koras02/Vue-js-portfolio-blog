@@ -1,12 +1,16 @@
 <template>
    <section id="projects">
-      <div class="container" data-aos="fade-right">
-        <div class="project-wrapper">
-          <div class="react-reveal sectiontitle" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-686762263305807-2;">
+      <div class="container" >
+        <div class="project-wrapper" >
+        <div  data-aos="fade-right">
+          <div class="react-reveal sectiontitle" 
+       
+           style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-686762263305807-2;">
              Projects
           </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
+        </div>
+          <div class="row"  data-aos="fade-right">
+            <div class="col-lg-4 col-sm-12" >
                <div class="react-reveal project-wrapper__text"
                 style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 500ms; animation-iteration-count: 1; opacity:1"
                >
@@ -41,7 +45,60 @@
                   </div>
             </div>
           </div>
+          <!-- 1번째 프로젝트 끝  -->
+          <!-- 2번째 프로젝트   -->
+           <div class="row" data-aos="fade-left">
+            <!-- 2번째 시작 -->
+            <div class="col-lg-4 col-sm-12">
+               <div class="react-reveal project-wrapper__text"
+                style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 500ms; animation-iteration-count: 1; opacity:1"
+               >
+                   <h3 class="project-wrapper__text-title">
+                       '웹 표준'
+                   </h3>
+                <div>
+                    <p>실무에서 작업하듯이 직접 HTML으로 만든 웹표준 사이트</p>
+                    <p class="mb-4" style="font-size: 15px; line-height: 24px;">HTML: HTML, CSS, Javascript, jQuery + 미디어 쿼리</p>
+                    <p class="mb-4">React:styled-components, scss, React-slick, React-firebase </p>
+                 
+                </div>
+                <a target="_blank" class="cta-btn text-color-main" 
+                  href="https://koras02.github.io/web-html-pages-build-/index.html">
+                   <div id="color1" style="font-size:15px; display:block">
+                    Source Code(HTML)
+                   </div>
+                   
+                </a>
+                 <a target="_blank" class="cta-btn text-color-main" 
+                  href="https://koras02.github.io/web-html-pages-build-/index.html">
+                   <div id="color" style="font-size:15px ">
+                    Source Code(React)
+                   </div>
+                </a>
+               </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+                  <div class="react-reveal project-wrapper__image">
+                     <a href="https://koras02.github.io/web-html-pages-build-/index.html" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
+                       <div className="Source-code" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)">
+                           <div data-tilt="true" class="thumbnail rounded">
+                              <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
+                                 <div aria-hidden="true" style="width:100%;padding-bottom: 59.6491%;">
+                                 </div>
+                                 <img aria-hidden="true" src="./images/web.png" style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
+                              </div>
+                           </div>
+                       </div>
+                     </a>
+                </div>
+            </div>
+          </div>
+        <!-- End -->
+
+
+        
         </div>
+
       </div>
    </section>
 
@@ -171,6 +228,18 @@
        margin-bottom:10px;
        margin-left:-10px;
    }  
+
+
+   .text-color-main2 {
+       background-image: linear-gradient(135deg, #68ff5b, rgba(104,255,90,.717647));
+       /* color:red; */
+       --webkit-background-clip: text;
+ 
+       -webkit-text-fill-color: transparent;
+       margin-bottom:10px;
+       margin-left:-10px;
+   }  
+
    #color1:hover {
        /* background-image: linear-gradient(135deg, red, rgba(104,255,90,.717647)); */
        margin-left:15px;
@@ -214,6 +283,7 @@
         width: 90%;
         margin:0 auto;
         border:4px solid rgb(206, 206, 206);
+        
     }
 
     
@@ -241,3 +311,13 @@
       box-sizing:border-box;
     }
    </style>
+
+   <script>
+export default{};
+
+AOS.init({
+    offset: 0,
+    delay: 0,
+    duration: 2000
+})
+</script>

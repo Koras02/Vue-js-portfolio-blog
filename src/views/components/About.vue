@@ -57,7 +57,7 @@
 export default{};
 
 AOS.init({
-    offset: -50,
+    offset: -100,
     delay: 0,
     duration: 1000
 })
