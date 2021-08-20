@@ -93,12 +93,31 @@
                 </div>
             </div>
           </div>
+      <!-- <scroll-loader :loader-method="getImagesInfo" :loader-enable="loadMore">
+    <div>Loading...</div>
+</scroll-loader> -->
+        <!-- 3번째 이미지 준비중 화면 -->
+         <div class="row" data-aos="fade-bottom">
+            <!-- 2번째 시작 -->
+            <div class="col-lg-4 col-sm-12" style=" margin: auto">
+                <div class="react-reveal poject-wrapper__image">
+                  <a href="https://koras02.github.io/web-html-pages-build-/index.html" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
+                       <div className="Source-code" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)">
+                           <div data-tilt="true" class="thumbnail rounded">
+                              <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
+                                 <div aria-hidden="true" style="width:100%;padding-bottom: 59.6491%;">
+                                 </div>
+                                 <img aria-hidden="true" src="./images/404.gif" style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
+                              </div>
+                           </div>
+                       </div>
+                     </a>
+                </div>
+            </div>
+ 
+          </div>
         <!-- End -->
-
-
-        
         </div>
-
       </div>
    </section>
 
