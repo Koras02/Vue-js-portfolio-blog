@@ -43,6 +43,7 @@ Vue.config.productionTip = false;
 Vue.use(Argon);
 Vue.use(VueTyperPlugin);
 Vue.use(VuescrollTo);
+Vue.use(ScrollLoader);
 
  
 new Vue({

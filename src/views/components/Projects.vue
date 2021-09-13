@@ -19,10 +19,17 @@
                    </h3>
                 <div>
                     <p>React-Themovie Api를 사용한 넷플릭스</p>
-                    <p class="mb-4">사용기술:Typescript,The Movie DB,React,React-styled-components,TheMovie-API,React-Router</p>
-                    <p class="my-4">구현:영화 배너 클릭시 영화 소개 + 영화 트레일러 재생(Youtube), 검색, MyList구현,</p>
+                    <p class="mb-4">
+                    사용기술:
+                    The Movie DB,
+                    Postman,
+                    styled-components,
+                    TheMovie-API,React-Router,
+                    Google-Firebase
+                    </p>
+                    <p class="my-4">구현:메인 페이지 로그인 페이지, 프로필 선택, 영화 장르 설정</p>
                 </div>
-                <a target="_blank" class="cta-btn text-color-main"   href="https://github.com/Koras02/Netflix-Api-frameWork">
+                <a target="_blank" class="cta-btn text-color-main"   href="https://github.com/Koras02/react-netflix-framework">
                    <div id="color1">
                     Source Code
                    </div>
@@ -31,13 +38,13 @@
             </div>
             <div class="col-lg-8 col-sm-12">
                   <div class="react-reveal project-wrapper__image">
-                     <a href="https://koras02.github.io/Netflix-Api-frameWork/" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
+                     <a href="https://github.com/Koras02/react-netflix-framework" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
                        <div className="Source-code" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)">
                            <div data-tilt="true" class="thumbnail rounded">
                               <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
                                  <div aria-hidden="true" style="width:100%;padding-bottom: 59.6491%;">
                                  </div>
-                                 <img aria-hidden="true" src="./images/1.png" style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
+                                 <img aria-hidden="true" src="./images/Netflix.png" style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
                               </div>
                            </div>
                        </div>
@@ -58,7 +65,7 @@
                    </h3>
                 <div>
                     <p>실무에서 작업하듯이 직접 HTML으로 만든 웹표준 사이트</p>
-                    <p class="mb-4" style="font-size: 15px; line-height: 24px;">HTML: HTML, CSS, Javascript, jQuery + 미디어 쿼리</p>
+                    <p class="mb-4" style="font-size: 15px; line-height: 24px;">사용기술: HTML, CSS, Javascript, jQuery + 미디어 쿼리</p>
                     <p class="mb-4">React:styled-components, scss, React-slick, React-firebase </p>
                  
                 </div>
@@ -93,9 +100,7 @@
                 </div>
             </div>
           </div>
-      <!-- <scroll-loader :loader-method="getImagesInfo" :loader-enable="loadMore">
-    <div>Loading...</div>
-</scroll-loader> -->
+ 
         <!-- 3번째 이미지 준비중 화면 -->
          <div class="row" data-aos="fade-bottom">
             <!-- 2번째 시작 -->
@@ -301,7 +306,7 @@
     #projects .project-wrapper__image {
         width: 90%;
         margin:0 auto;
-        border:4px solid rgb(206, 206, 206);
+        /* border:4px solid rgb(206, 206, 206); */
         
     }
 

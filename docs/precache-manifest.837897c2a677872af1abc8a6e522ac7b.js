@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "7ae68d8b80cf47184f0a",
+    "revision": "e7e139cf9f06839bfa18",
     "url": "/Vue-js-portfolio-blog/css/app.a14b959e.css"
   },
   {
-    "revision": "7ae68d8b80cf47184f0a",
-    "url": "/Vue-js-portfolio-blog/js/app.97cdb326.js"
+    "revision": "e7e139cf9f06839bfa18",
+    "url": "/Vue-js-portfolio-blog/js/app.262dff9f.js"
   },
   {
-    "revision": "1ae826e5d721a9a22b4b",
-    "url": "/Vue-js-portfolio-blog/js/chunk-vendors.83f005c7.js"
+    "revision": "1e0f983990cc7cfc8890",
+    "url": "/Vue-js-portfolio-blog/js/chunk-vendors.46368a23.js"
   },
   {
     "revision": "ec93aa9dceaba00603de439a62097323",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -60,7 +60,11 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "57120f13302177ef6505bf29d07e7367",
+    "revision": "43471a76043c0f5ad4321d3726a88a63",
+    "url": "/Vue-js-portfolio-blog/img/404.43471a76.gif"
+  },
+  {
+    "revision": "311636e295bf7a099cad9f2d55bccbdb",
     "url": "/Vue-js-portfolio-blog/index.html"
   },
   {
@@ -72,16 +76,16 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/brand/blue.png"
   },
   {
-    "revision": "c85c75275c0a0a617f9e5accc2700908",
-    "url": "/Vue-js-portfolio-blog/img/brand/creativetim-white-slim.png"
+    "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
+    "url": "/Vue-js-portfolio-blog/img/brand/github-white-slim.png"
   },
   {
     "revision": "b9949387c6179e2dc4c675134a7b7935",
     "url": "/Vue-js-portfolio-blog/img/brand/favicon.png"
   },
   {
-    "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
-    "url": "/Vue-js-portfolio-blog/img/brand/github-white-slim.png"
+    "revision": "c85c75275c0a0a617f9e5accc2700908",
+    "url": "/Vue-js-portfolio-blog/img/brand/creativetim-white-slim.png"
   },
   {
     "revision": "6fafe4baca9d50d61a898c84ade7afa3",
@@ -96,18 +100,6 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/theme/cat.jpg"
   },
   {
-    "revision": "7789b5bfa57722dd8916b1b9ff1b1d37",
-    "url": "/Vue-js-portfolio-blog/img/theme/img-2-1200x1000.jpg"
-  },
-  {
-    "revision": "fd4a34d026fb9e0f4867188d47b11ba8",
-    "url": "/Vue-js-portfolio-blog/img/theme/img-1-1200x1000.jpg"
-  },
-  {
-    "revision": "20d702b83a06bdb2ea71c4c0cb9a7a56",
-    "url": "/Vue-js-portfolio-blog/img/theme/profile.jpg"
-  },
-  {
     "revision": "dc49ad52655e1d9d0552c026db3ef688",
     "url": "/Vue-js-portfolio-blog/img/theme/landing.jpg"
   },
@@ -116,19 +108,31 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/theme/promo-1.png"
   },
   {
-    "revision": "be997d5226b992ffad34816870c6b7aa",
-    "url": "/Vue-js-portfolio-blog/img/theme/team-2-800x800.jpg"
-  },
-  {
-    "revision": "54e3f3c414bd8e7234bae3ee3be950e5",
-    "url": "/Vue-js-portfolio-blog/img/theme/team-3-800x800.jpg"
+    "revision": "20d702b83a06bdb2ea71c4c0cb9a7a56",
+    "url": "/Vue-js-portfolio-blog/img/theme/profile.jpg"
   },
   {
     "revision": "edc7106b21ec12e57022b2ebd534cd2d",
     "url": "/Vue-js-portfolio-blog/img/theme/team-1-800x800.jpg"
   },
   {
+    "revision": "fd4a34d026fb9e0f4867188d47b11ba8",
+    "url": "/Vue-js-portfolio-blog/img/theme/img-1-1200x1000.jpg"
+  },
+  {
     "revision": "66618a418175ddf2ac8c47a241d327a8",
     "url": "/Vue-js-portfolio-blog/img/theme/team-4-800x800.jpg"
+  },
+  {
+    "revision": "7789b5bfa57722dd8916b1b9ff1b1d37",
+    "url": "/Vue-js-portfolio-blog/img/theme/img-2-1200x1000.jpg"
+  },
+  {
+    "revision": "54e3f3c414bd8e7234bae3ee3be950e5",
+    "url": "/Vue-js-portfolio-blog/img/theme/team-3-800x800.jpg"
+  },
+  {
+    "revision": "be997d5226b992ffad34816870c6b7aa",
+    "url": "/Vue-js-portfolio-blog/img/theme/team-2-800x800.jpg"
   }
 ];
