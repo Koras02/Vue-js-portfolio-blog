@@ -23,10 +23,9 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import VueTyperPlugin from "vue-typer";
-// import { VueTyper } from 'vue-typer';
 import VuescrollTo from 'vue-scrollto';
 import ScrollLoader from 'vue-scroll-loader'
-
+ 
 import "./assets/vendor/nucleo/css/nucleo.css";
 import "./assets/vendor/font-awesome/css/font-awesome.css";
  
@@ -44,6 +43,7 @@ Vue.use(Argon);
 Vue.use(VueTyperPlugin);
 Vue.use(VuescrollTo);
 Vue.use(ScrollLoader);
+ 
 
  
 new Vue({

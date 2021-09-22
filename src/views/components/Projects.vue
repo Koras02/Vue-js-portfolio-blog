@@ -39,12 +39,12 @@
             <div class="col-lg-8 col-sm-12">
                   <div class="react-reveal project-wrapper__image">
                      <a href="https://github.com/Koras02/react-netflix-framework" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
-                       <div className="Source-code" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)">
+                       <div className="Source-code" style="transform:perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)">
                            <div data-tilt="true" class="thumbnail rounded">
-                              <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
-                                 <div aria-hidden="true" style="width:100%;padding-bottom: 59.6491%;">
+                              <div class="gatsby-image-wrapper" style="position:relative; overflow:hidden">
+                                 <div aria-hidden="true" alt style="width:100%;padding-bottom:69.883%;">
+                                 <img aria-hidden="true" src="./images/Netflix.png" class="source">
                                  </div>
-                                 <img aria-hidden="true" src="./images/Netflix.png" style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
                               </div>
                            </div>
                        </div>
@@ -92,7 +92,9 @@
                               <div class=" gatsby-image-wrapper" style="position:relative; overflow:hidden">
                                  <div aria-hidden="true" style="width:100%;padding-bottom: 59.6491%;">
                                  </div>
-                                 <img aria-hidden="true" src="./images/web.png" style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
+                                 <img aria-hidden="true" src="./images/web.png" key="" 
+                                  className="image"
+                                  style="position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center; transition-delay:500ms;">
                               </div>
                            </div>
                        </div>
@@ -272,10 +274,17 @@
    }
 
    .Source-code {
-       transform: perspective(1000px)
-         rotateX(0deg) rotateY(0deg)
-         scale3d(1,1,1);
-       ;
+    transform: perspective(1000px) rotateX(
+        0deg) rotateY(
+        0deg) scale3d(1, 1, 1);
+
+     
+   }
+   .Source-code:hover {
+        transform: perspective(1000px) rotateX(
+        10deg) rotateY(
+        0deg) scale3d(1, 1, 1);
+
    }
      
 
@@ -316,8 +325,22 @@
         border:none;
         box-shadow: 0 6px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);
         transition:transform .5s cubic-bezier(.155,1.105,.295,1.12),box-shadow .5s;
+        
 
     }
+      #projects .project-wrapper__image .thumbnail:hover {
+        transform: perspective(1000px) rotateY(10deg) translateY(10px) rotateX(10deg) rotateX(0deg) scale(1);
+         filter: blur(0);
+         opacity:1;
+         
+      }
+        #projects .project-wrapper__image .thumbnail:nth-child(2):hover {
+        transform: perspective(1000px) rotateY(100deg) translateY(10px) rotateX(10deg) rotateX(0deg) scale(1);
+         filter: blur(0);
+         opacity:1;
+         
+      }
+     
 
     .rounded {
         border-radius: .25rem;
@@ -329,11 +352,28 @@
     
     img {
         border-style: none;
+     
     }
+  
 
     *, ::after,::before {
       box-sizing:border-box;
     }
+ 
+    .source {
+        position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center;
+        filter: blur(2x);
+        transition: 0.6s ease all;
+
+        
+    }
+    .source:nth-child(2) {
+        position:absolute; top:0px; left:0px;width:100%;height:100%;background-size:cover;object-fit:cover;object-position:center center;
+        filter: blur(2x);
+        transition: 0.6s ease all;
+    }
+ 
+    
    </style>
 
    <script>

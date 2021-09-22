@@ -41,6 +41,7 @@
                          href="https://drive.google.com/file/d/1gguHUbVpJZGC3Zt-bI3g4G5vz_Rm7hWv/view"
                          >
                             "이력서 다운받기"
+                         
                          </a>
                      </span>
                       
@@ -203,6 +204,7 @@ a, p {
     display:flex!important;
     width:330px;
     height:36px;
+    /* color:red; */
     
 }
 
@@ -218,18 +220,38 @@ a, a:active, a:hover, a:link, a:visited {
     line-height: 1.2;
     z-index: 1;
     transition: all .6s cubic-bezier(0.19, 1, 0.22, 1);
+   
+   /* color:red; */
+    
 }
 
 
 .cta-btn , a, p {
     font-size: 1.2rem;
+    
 }
  
 
 .cta-btn--resume {
     color:#fff;
     border: 3px solid #fff;
-
+    
 }
+.cta-btn--resume:hover {
+    color:#17DAC3;
+    box-shadow: inset 10em 0 0 0 #fff;
+    border: 3px solid #fff;
+    
+}
+
+ @media screen and (max-width: 680px) {
+        .cta-btn--resume {
+            position:absolute;
+            left: 150px;
+        }
+    }
+
+
+ 
 
 </style>
