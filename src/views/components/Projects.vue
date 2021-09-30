@@ -43,8 +43,11 @@
                            <div data-tilt="true" class="thumbnail rounded">
                               <div class="gatsby-image-wrapper" style="position:relative; overflow:hidden">
                                  <div aria-hidden="true" alt style="width:100%;padding-bottom:69.883%;">
-                                 <img aria-hidden="true" src="./images/Netflix.png" class="source">
                                  </div>
+                                 <img aria-hidden="true" src="./images/Netflix.png" class="source"
+                                   style="position: absolute; top: 0px;left: 0px; width: 100%; height: 100%;
+                                  object-fit: cover; object-position: center center opacity: 0; transition-delay: 500ms;"
+                                 >
                               </div>
                            </div>
                        </div>
@@ -316,30 +319,37 @@
         width: 90%;
         margin:0 auto;
         /* border:4px solid rgb(206, 206, 206); */
-        
     }
-
+    
     
     
     #projects .project-wrapper__image .thumbnail {
         border:none;
         box-shadow: 0 6px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);
         transition:transform .5s cubic-bezier(.155,1.105,.295,1.12),box-shadow .5s;
-        
-
     }
-      #projects .project-wrapper__image .thumbnail:hover {
-        transform: perspective(1000px) rotateY(10deg) translateY(10px) rotateX(10deg) rotateX(0deg) scale(1);
-         filter: blur(0);
-         opacity:1;
-         
-      }
-        #projects .project-wrapper__image .thumbnail:nth-child(2):hover {
-        transform: perspective(1000px) rotateY(100deg) translateY(10px) rotateX(10deg) rotateX(0deg) scale(1);
-         filter: blur(0);
-         opacity:1;
-         
-      }
+        
+    #projects .project-wrapper__image .thumbnail > * {
+        transform: translateZ(10px);
+          perspective: 30px;
+    }
+    
+        #projects .project-wrapper__image .thumbnail::before {
+            content: '';
+            position:absolute;
+            top: 5%;
+            width: 90%;
+            height: 90%;
+            box-shadow: 0 30px 20px rgba(35,32,39,0.5);
+           
+        }
+        #projects .project-wrapper__image .thumbnail:hover {
+            perspective: 200px;
+            transition: 10s;
+        }
+
+ 
+ 
      
 
     .rounded {
@@ -382,6 +392,7 @@ export default{};
 AOS.init({
     offset: 0,
     delay: 0,
-    duration: 2000
+    duration: 2000,
+     once:true
 })
 </script>

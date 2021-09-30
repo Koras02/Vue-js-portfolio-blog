@@ -51,6 +51,12 @@
  
  }
  
+ AOS.init({
+    offset: 0,
+    delay: 0,
+    duration: 2000,
+     once:true
+})
 </script>
 <style>
 

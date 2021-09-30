@@ -38,7 +38,7 @@
                      </p>
                      <span class="d-flex mt-3">
                          <a target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--resume"
-                         href="https://drive.google.com/file/d/1gguHUbVpJZGC3Zt-bI3g4G5vz_Rm7hWv/view"
+                         href="https://drive.google.com/file/d/1_aYIsKgTY0rXbKX_yk3KxeGdOvc7N4Yz/view?usp=sharing"
                          >
                             "이력서 다운받기"
                          
@@ -60,7 +60,9 @@ export default{};
 AOS.init({
     offset: 400,
     delay: 0,
-    duration: 1000
+    duration: 1000,
+    once:true
+    
 })
 </script>
 

@@ -10,7 +10,7 @@
            </h2>
            <div class="react-reveal contact-wrapper">
                <p class="contact-wrapper__text">이메일 주소를 보내시려면 아래 버튼을 클릭하세요.</p>
-               <a target="-blank" class="cta-btn1 cta-btn--resume" href="https://mail.google.com/mail/u/0/#inbox">
+               <a target="_blank" class="cta-btn1 cta-btn--resume" href="https://mail.google.com/mail/u/0/#inbox">
                     "이메일 주소"
                </a>
            </div>
@@ -22,14 +22,16 @@
     #contact {
         background:linear-gradient(135deg, #DDEFBB, 
         rgba(104,255,90,.717647));
-        margin-bottom: -1px;
+       
         color:#fff;
+        overflow:hidden;
     }
 
     @media (min-width: 1200px) {
         #contact {
           display:flex;
           align-items:center;
+          
        
           background-image:linear-gradient(135deg,#B0DAB9,#8CA6DB);
           border-top:0;
@@ -100,6 +102,7 @@
    #contact .contact-wrapper__text, #contact-wrapper a {
          font-size: 2rem;
          text-align: center;
+         overflow:hidden;
          position:relative;
          left:20px;
          color:#fff;
@@ -126,6 +129,7 @@
        line-height: 1;
        transition: all .6s cubic-bezier(.19,1,.22,1);
        margin:auto;
+       overflow: hidden;
        
    }
 
@@ -146,6 +150,7 @@
        color:#fff;
        border: 2px solid #fff;
        padding:8px;
+       overflow:hidden;
    }
    .cta-btn--resume:after {
        background:#fff;
@@ -161,6 +166,7 @@
        bottom: 0;
        z-index: -1;
        transition: all .3s cubic-bezier(.19,1,.22,1);
+       overflow:hidden;
    }
 
 
