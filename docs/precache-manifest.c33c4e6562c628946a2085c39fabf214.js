@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "732c449cb911c6180999",
-    "url": "/Vue-js-portfolio-blog/css/app.cacca544.css"
+    "revision": "7bd62664b8f7f2e45979",
+    "url": "/Vue-js-portfolio-blog/css/app.bf8b2ce1.css"
   },
   {
-    "revision": "732c449cb911c6180999",
-    "url": "/Vue-js-portfolio-blog/js/app.023c8b5d.js"
+    "revision": "7bd62664b8f7f2e45979",
+    "url": "/Vue-js-portfolio-blog/js/app.23e5d2a0.js"
   },
   {
     "revision": "8d549e5904fbe68a36d4",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.c1733565.eot"
   },
   {
-    "revision": "2569aaea6eaaf8cd210db7f2fa016743",
-    "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.2569aaea.woff"
-  },
-  {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.42643978.woff2"
+  },
+  {
+    "revision": "2569aaea6eaaf8cd210db7f2fa016743",
+    "url": "/Vue-js-portfolio-blog/fonts/nucleo-icons.2569aaea.woff"
   },
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/Netflix.17b8202b.png"
   },
   {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.674f50d2.eot"
+  },
+  {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/Vue-js-portfolio-blog/fonts/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/404.43471a76.gif"
   },
   {
-    "revision": "08bc6d3406e7a8e544fca164cfa11847",
+    "revision": "2d0aa2506863e82cbe9a7d1f15630002",
     "url": "/Vue-js-portfolio-blog/index.html"
   },
   {
@@ -96,10 +96,6 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/ill/ill-2.svg"
   },
   {
-    "revision": "cc767b58ef34dc707c8eca2406f41bf3",
-    "url": "/Vue-js-portfolio-blog/img/theme/cat.jpg"
-  },
-  {
     "revision": "fd4a34d026fb9e0f4867188d47b11ba8",
     "url": "/Vue-js-portfolio-blog/img/theme/img-1-1200x1000.jpg"
   },
@@ -108,16 +104,20 @@ self.__precacheManifest = [
     "url": "/Vue-js-portfolio-blog/img/theme/landing.jpg"
   },
   {
-    "revision": "7789b5bfa57722dd8916b1b9ff1b1d37",
-    "url": "/Vue-js-portfolio-blog/img/theme/img-2-1200x1000.jpg"
+    "revision": "cc767b58ef34dc707c8eca2406f41bf3",
+    "url": "/Vue-js-portfolio-blog/img/theme/cat.jpg"
+  },
+  {
+    "revision": "974088a1931e40895bac6db119c62448",
+    "url": "/Vue-js-portfolio-blog/img/theme/promo-1.png"
   },
   {
     "revision": "20d702b83a06bdb2ea71c4c0cb9a7a56",
     "url": "/Vue-js-portfolio-blog/img/theme/profile.jpg"
   },
   {
-    "revision": "974088a1931e40895bac6db119c62448",
-    "url": "/Vue-js-portfolio-blog/img/theme/promo-1.png"
+    "revision": "7789b5bfa57722dd8916b1b9ff1b1d37",
+    "url": "/Vue-js-portfolio-blog/img/theme/img-2-1200x1000.jpg"
   },
   {
     "revision": "edc7106b21ec12e57022b2ebd534cd2d",
